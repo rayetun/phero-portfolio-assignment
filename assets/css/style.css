@@ -1,0 +1,300 @@
+/*
+* ----------------------------------------------------
+*   1. General CSS 
+* ----------------------------------------------------
+*/
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background: white;
+    color: #3C3C3C;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+* ----------------------------------------------------
+*   2. Nav Area CSS 
+* ----------------------------------------------------
+*/
+.main-nav ul{
+    margin: 35px auto;
+    padding: 0px 5% 0px;
+    list-style: none;
+    text-align: center;
+}
+.main-nav ul li{
+    display: inline-block;
+}
+.main-nav ul li a{
+    color: #3C3C3C;
+    display: block;
+    padding : 0px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.main-nav ul li:hover a{
+    color: #F46060;
+}
+/*
+* ----------------------------------------------------
+*   3. Hero & About Area CSS 
+* ----------------------------------------------------
+*/
+.hero-area,.about-area{
+    width: 100%;
+    height: 500px;
+    padding-top: 100px;
+    color: #3E3E3E;
+}
+.hero-content,.hero-image,.about-content,.about-image{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.hero-content h1{
+    font-size: 80px;
+    color: #363958;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.hero-content h1 span{
+    color: #FF8367;
+    display: block;
+}
+.hero-image img,.about-image img{
+    width: 465px;
+    height: auto;
+    margin-top: -50px;
+}
+.hero-content p,.about-content p{
+    line-height: 24px;
+    padding-right: 10%;
+}
+.hero-button{
+    display: inline-block;
+    text-decoration: none;
+    background: linear-gradient(45deg,#6a29e9,#4a74e2);
+    padding: 13px 30px;
+    border-radius: 3px;
+    color: white;
+    margin-top: 20px;
+}
+.hero-button:hover{
+    background: linear-gradient(45deg,#FF8063,#F46060);
+    color: #fff;
+}
+.about-area{
+    padding: 0px;
+    height: 407px;
+}
+.about-image img{
+    margin-top: -50px;
+}
+.about-content h2 {
+    color: #363958;
+    font-size: 48px;
+}
+
+
+/*
+* ----------------------------------------------------
+*   4. Service Area CSS 
+* ----------------------------------------------------
+*/
+.service-area {
+    padding: 60px 80px 80px;
+    background-image: url(../images/service-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.service-list{
+    width: 85%;
+    height: 300px;
+    margin: 50px auto;
+}
+.single-service {
+    float: left;
+    width: 26%;
+    text-align: center;
+    margin: 1% 1.66%;
+    background: linear-gradient(45deg,#6a29e9,#4a74e2);
+    min-height: 310px;
+    padding: 2%;
+    color: white;
+    border-radius: 10px;
+}
+.single-service img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+.single-service h3{
+    color: #F46060;
+    font-size: 22px;
+}
+
+/*
+* ----------------------------------------------------
+*   5. Latest Work Area CSS 
+* ----------------------------------------------------
+*/
+.latest-work{
+    background: #ffffff;
+    padding: 60px 0;
+}
+.section-title h2{
+    color: #363958;
+    font-size: 48px;
+    text-align: center
+}
+.section-title h2 span{
+    color: #F46060;
+    font-size: 48px;
+}
+.work-list {
+    width: 85%;
+    margin: 50px auto;
+    min-height: 390px;
+}
+
+.single-work {
+    float: left;
+    width: 29%;
+    border-radius: 20px;
+    background: white;
+    padding: 1.5% 1.5%;
+    margin: 0.665%;
+    font-size: 16px;
+    color: #6C6C6C;
+    line-height: 28px;
+    box-shadow: 1px 1px 10px #000;
+    cursor: pointer;
+}
+
+.single-work img {
+    border-radius: 10px;
+}
+
+.single-work h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: #363958;
+}
+
+/*
+* ----------------------------------------------------
+*   6. Contact Area CSS 
+* ----------------------------------------------------
+*/
+.contact-area {
+    background: #e5e5e5;
+    padding: 80px;
+}
+
+.contact-info {
+    width: 50%;
+    background: linear-gradient(138.38deg, #5D69E9 -7.79%, #4225B6 98.72%);
+    margin: 0 auto;
+    padding: 70px 30px;
+    border-radius: 30px;
+    background-image: url(../images/cta-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.contact-title {
+    padding-left: 20px;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.contact-button {
+    width: 90%;
+    text-align: right;
+}
+
+.contact-button .hero-button {
+    margin-top: 0px;
+    background: linear-gradient(45deg,#FF8063,#F46060);
+}
+
+.contact-title h1 {
+    margin: -16px 0 0 0;
+    padding: 0;
+    color: #fff;
+    font-size: 64px;
+}
+.social-link {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.social-link h4 {
+    color: #696871;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.social-link p {
+    margin: 0;
+}
+
+.social-link p a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #363958;
+    font-weight: 700;
+}
+
+.social-link ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social-link ul li {
+    display: inline-block;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.social-link ul li img {
+    width: 35px;
+    height: 35px;
+}
+footer {
+    background: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Bebas Neue', cursive;
+    padding: 7px 0;
+}
