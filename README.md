@@ -1,1 +1,1 @@
-<a style="font-size: 17px; padding:13px 25px; background-color:#238636; color:#fff;" href="https://rayetun.github.io/phero-portfolio-assignment/" target="_blank">Please Click to See Live Demo</a>
+<a href="https://rayetun.github.io/phero-portfolio-assignment/" target="_blank" style="font-size: 17px!important; padding:13px 25px!important; background-color: #238636!important; color: #fff!important;">Please Click to See Live Demo</a>
